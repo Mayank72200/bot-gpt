@@ -1,0 +1,54 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# ── Virtual environment ─────────────────────────────────
+.venv/
+venv/
+ENV/
+
+# ── Environment variables (contains API keys) ───────────
+.env
+
+# ── Database ─────────────────────────────────────────────
+*.db
+*.sqlite3
+
+# ── FAISS index (large binary, regenerable) ─────────────
+data/index.faiss
+data/index.pkl
+
+# ── IDE / Editor ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Generated artifacts ──────────────────────────────────
+*.pptx
+create_ppt.py
+BOT_GPT_Presentation*.pptx
+
+# ── Pytest / Coverage ───────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+
+# ── Docker (local volumes) ──────────────────────────────
+docker-compose.override.yml
