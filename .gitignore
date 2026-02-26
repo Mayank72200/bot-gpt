@@ -38,9 +38,7 @@ Thumbs.db
 desktop.ini
 
 # ── Generated artifacts ──────────────────────────────────
-*.pptx
 create_ppt.py
-BOT_GPT_Presentation*.pptx
 
 # ── Pytest / Coverage ───────────────────────────────────
 .pytest_cache/
